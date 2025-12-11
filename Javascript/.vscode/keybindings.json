@@ -1,8 +1,0 @@
-[
-  {
-    "key": "ctrl+alt+n",
-    "command": "workbench.action.tasks.runTask",
-    "args": "New HTML from template",
-    "when": "editorTextFocus"
-  }
-]
