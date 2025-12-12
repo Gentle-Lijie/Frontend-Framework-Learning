@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "vite-plugin-vue-devtools": "^8.0.5"
   }
 }
