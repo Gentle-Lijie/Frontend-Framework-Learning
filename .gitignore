@@ -51,7 +51,7 @@ node_modules/.pnpm/
 # pnpm-lock.yaml
 
 # Build output directories
-dist/
+# dist/
 build/
 out/
 .next/
@@ -61,7 +61,7 @@ out/
 .cache
 .vite/
 /.cache/
-/.dist/
+# /.dist/
 public/build/
 storybook-static/
 
@@ -82,14 +82,14 @@ build/
 
 # Angular
 /.angular/
-dist/
+# dist/
 
 # SvelteKit
 /.svelte-kit/
 build/
 
 # Vite
-/dist/
+# /dist/
 
 # Parcel
 .parcel-cache/
