@@ -6,16 +6,11 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  title: 'Todo List',
-  description: 'A simple todo list application built with Vue 3 and Vite',
-  base: './',
-  plugins: [
-    vue(),
-    vueDevTools(),
-  ],
+  base: "./",
+  plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-})
+});
